@@ -2,7 +2,7 @@ require 'bundler/setup'
 require 'active_record'
 require 'estados_br_ar'
 
-ActiveRecord::Base.establish_connection(adapter: 'sqlite3', database: ':memory:')
+ActiveRecord::Base.establish_connection(adapter: 'sqlite3',  database: '../database/db.sqlite3')
 
 ActiveRecord::Schema.define do
   create_table :estados do |t|
