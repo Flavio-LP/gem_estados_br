@@ -1,5 +1,7 @@
 # frozen_string_literal: true
 
+require 'rails'
+
 require_relative "estados_br_ar/version"
 require_relative "models/estado"
 

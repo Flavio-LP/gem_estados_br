@@ -1,5 +1,5 @@
 
-def CreateEstados <ActiveRecord::Migration[7.0]
+def xxx_estados_b <ActiveRecord::Migration[7.0]
     def change
         create_table :Estados do |t|
             t.string :nome
